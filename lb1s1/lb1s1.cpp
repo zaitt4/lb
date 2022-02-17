@@ -10,7 +10,7 @@ int pass_id = 0;
 char None[] = "None";
 
 /* 
-	      Black         = 0	LightBlue     = 9
+	Black         = 0	LightBlue     = 9
         Blue          = 1	LightGreen    = 10
         Green         = 2	LightCyan     = 11
         Cyan          = 3	LightRed      = 12
