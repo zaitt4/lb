@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <windows.h>
 #include <cstring>
@@ -10,7 +10,7 @@ int pass_id = 0;
 char None[] = "None";
 
 /* 
-		Black         = 0	LightBlue     = 9
+	Black         = 0	LightBlue     = 9
         Blue          = 1	LightGreen    = 10
         Green         = 2	LightCyan     = 11
         Cyan          = 3	LightRed      = 12
@@ -136,7 +136,7 @@ void Abort() {
 
 		std::cin >> id;
 
-		while (id < 0 || id > pass_id) {
+		while (id < 1 || id > pass_id) {
 
 			Color(4);
 			printf("\nНЕВЕРНЫЙ НАБОРТ");
@@ -159,7 +159,7 @@ void Abort() {
 
 		std::cin >> Factor;
 
-		while (Factor < 0 || Factor > 4) {
+		while (Factor < 1 || Factor > 4) {
 
 			Color(4);
 			printf("\nНЕВЕРНЫЙ НАБОРТ");
@@ -376,7 +376,7 @@ void ConcreteMixer() {
 
 	std::cin >> Factor;
 
-	while (Factor < 0 || Factor > 4) {
+	while (Factor <= 0 || Factor > 4) {
 
 		Color(4);
 		printf("НЕВЕРНЫЙ ВВОД");
