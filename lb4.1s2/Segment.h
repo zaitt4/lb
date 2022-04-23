@@ -9,7 +9,7 @@ class Segment {
 	float x1 = 0;		float x2 = 0;
 	float y1 = 0;		float y2 = 0;
 
-			  float lenth;
+		     float lenth;
 
     float x_mid = 0;	float y_mid = 0;
 
