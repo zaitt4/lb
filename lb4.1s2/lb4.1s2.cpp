@@ -75,7 +75,7 @@ Segment* square_maker(Segment source) {
 
 	square[3] = fourth_side;
 
-	fourth_side.show_info(); // 4
+	fourth_side.show_info();
 
 	return square;
 }
