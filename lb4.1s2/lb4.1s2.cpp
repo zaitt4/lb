@@ -19,7 +19,7 @@ int main() {
 }
 
 
-//Создание квадрата путём 4 поворотов source на 90 градусов
+//Создание квадрата путём поворотов source на 90 градусов
 Segment* square_maker(Segment source) {
 
 	Segment* square = new Segment[4];
