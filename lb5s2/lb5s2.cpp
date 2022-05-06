@@ -57,4 +57,3 @@ Triangle builtEq(Triangle& victim) {
 	return nwEq;
   
 }
-
