@@ -234,7 +234,7 @@ void Fraction::Reduce() {
 }
 
 
-//Декремент постфикс
+//Декремент префикс
 Fraction Fraction::operator--() {
 
 	ReturnFactor();
