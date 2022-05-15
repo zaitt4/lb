@@ -59,7 +59,7 @@ Vector::Vector(Vector& victim) : Vector() {
 
 Vector& Vector::operator()(int newLenth) {
 
-	if (size < 0) {
+	if (newLenth < 0) {
 
 		throw(Exept("Ошибка изменения, длинна не может быть < 0\n"));
 	}
