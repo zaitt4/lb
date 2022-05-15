@@ -122,6 +122,7 @@ public:
 	void setSide(float side) {
 
 		this->side = side;
+		_volume = pow(side, 3);
 	}
 
         
