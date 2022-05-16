@@ -39,7 +39,7 @@ public:
 	
 	Fraction operator--();
 	Fraction operator--(int notused);
-	Fraction operator=(Fraction &right);
+	Fraction& operator=(Fraction &right);
 
 	bool operator==(Fraction &right);
 	bool operator!=(Fraction &right);
