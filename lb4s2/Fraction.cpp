@@ -279,7 +279,7 @@ Fraction Fraction::operator--(int notused) {
 }
 
 
-Fraction Fraction::operator=(Fraction &right) {
+Fraction& Fraction::operator=(Fraction &right) {
 
 	num    = right.num;
 	denum  = right.denum;
